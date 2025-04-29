@@ -1,0 +1,11 @@
+# Cloner le dépôt YOLOv5
+!git clone https://github.com/ultralytics/yolov5
+
+# Aller dans le répertoire du dépôt YOLOv5
+%cd yolov5
+
+# Installer les dépendances
+%pip install -qr requirements.txt
+
+# Installer roboflow pour le téléversement d'images (si nécessaire)
+%pip install -q roboflow
